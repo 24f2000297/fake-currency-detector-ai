@@ -183,6 +183,12 @@ code {
   background: rgba(212,165,116,.1); color: var(--accent-dark);
   margin-bottom: 16px; transition: transform .3s var(--ease);
 }
+.ic-icon-img {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  display: block;
+}
 .info-card:hover .ic-icon { transform: scale(1.08); }
 .info-card h3 { font-family: var(--body); font-size: .98rem; font-weight: 600; margin-bottom: 8px; }
 .info-card p { font-size: .88rem; color: var(--text-2); line-height: 1.6; }
